@@ -8,6 +8,7 @@ Dockerで構築しよう
 イメージ作成: build
 イメージの確認: image ls
 コンテナ立ち上げ: docker run [OPTION] IMAGE [COMMAND] [ARG...]
+コンテナ内で作業: docker exec -it コンテナ名 bash
 
 
 ### Apache
