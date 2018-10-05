@@ -1,5 +1,15 @@
 ## LAMPでのサーバー勉強
 
+sysv-rc-confでサービスの管理を管理簡単にできる
+Dockerで構築しよう
+### Docker
+[docker get started](https://docs.docker.com/get-started)
+動いてるコンテナをなくす: kill id 
+イメージ作成: build
+イメージの確認: image ls
+コンテナ立ち上げ: docker run [OPTION] IMAGE [COMMAND] [ARG...]
+
+
 ### Apache
 [あぱっちこうしきどきゅめんと](http://httpd.apache.org/docs/2.4/)
 /etc/apache2に色々設定がある
@@ -20,4 +30,5 @@ Webサーバ再起動: sudo systemctl apache2 restart
 
 ## やりたいこと
 リクエストの振り分け
+大量のリクエストが来た時Nginxとの性能比較
 
